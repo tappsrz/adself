@@ -1,11 +1,9 @@
 {
-    "adVersion": 3,
+    "adVersion": 4,
     "openAd": 1,
     "finalAd": -1,
     "showTimes": [
         -1,
-        1,
-        2,
         0
     ],
     "aDDatas": [
