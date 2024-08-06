@@ -1,0 +1,24 @@
+{
+    "adVersion": 1,
+    "openAd": 5,
+    "finalAd": 0,
+    "showTimes": [
+        1,
+        2,
+        3
+    ],
+    "aDDatas": [
+        {
+            "imageUrl": "https://tappsrz.github.io/adself/img/ads1.png",
+            "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.io.amongus.snacksquadsurvivor&referrer=campaign_id%253Dhd62dNbX7XwbDlrruqFZxS%2526clicked_at%253D1722479096%2526request_uuid%253D499917ba-a737-4a31-9759-b6c1c1603477"
+        },
+        {
+            "imageUrl": "https://tappsrz.github.io/adself/img/ads2.png",
+            "googlePlayUrl": "https://track.tenjin.com/v0/click/hd62dNbX7XwbDlrruqFZxS"
+        }
+        {
+            "imageUrl": "https://tappsrz.github.io/adself/img/ads3.png",
+            "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.healing.rush.hospitaltycoon"
+        }
+    ]
+}

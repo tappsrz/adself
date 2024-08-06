@@ -1,0 +1,35 @@
+{
+    "adVersion": 1,
+    "openAd": 5,
+    "finalAd": 2,
+    "showTimes": [
+        1,
+        2,
+        3
+    ],
+    "aDDatas": [
+        {
+            "imageUrl": "https://tappsrz.github.io/adself/img/ads1.png",
+            "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.io.amongus.snacksquadsurvivor&referrer=campaign_id%253Dhd62dNbX7XwbDlrruqFZxS%2526clicked_at%253D1722479096%2526request_uuid%253D499917ba-a737-4a31-9759-b6c1c1603477"
+        },
+        {
+            "imageUrl": "https://tappsrz.github.io/adself/img/ads2.png",
+            "googlePlayUrl": "https://track.tenjin.com/v0/click/hd62dNbX7XwbDlrruqFZxS"
+        }
+    ]
+}
+
+
+打开游戏
+检测openAd=5，后续继续检测showTimes
+检测finalID=0，
+玩游戏
+触发第一次插屏
+调用ads1.png
+
+显示max
+
+
+finalAd就是比如你填了10次插屏，第11次开始就按照finalAd的来，如果finalAd是-1，就显示max,不是-1就显示自定义
+
+showTimes是次数和广告序号，比如【0，1，-1】就代表第1次是播放索引为0的自定义广告，第2次是播索引为1的自定义广告，第3次就是展示max广告
