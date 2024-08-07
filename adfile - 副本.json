@@ -1,35 +1,24 @@
 {
-    "adVersion": 2,
-    "openAd": 5,
- "openmaxfail": 5,
-    "finalAd": 0,
+    "adVersion": 5,
+    "openAd": -1,
+    "openmaxfail": 1,
+    "finalAd": -1,
     "showTimes": [
-        1,
-        2,
-        3
+        -1,
+        0
     ],
     "aDDatas": [
         {
-            "imageUrl": "https://tappsrz.github.io/adself/img/ads2.png",
+            "imageUrl": "https://tappsrz.github.io/adself/img/ads1.png",
             "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.io.amongus.snacksquadsurvivor&referrer=campaign_id%253Dhd62dNbX7XwbDlrruqFZxS%2526clicked_at%253D1722479096%2526request_uuid%253D499917ba-a737-4a31-9759-b6c1c1603477"
         },
         {
-            "imageUrl": "https://tappsrz.github.io/adself/img/ads3.png",
+            "imageUrl": "https://tappsrz.github.io/adself/img/ads2.png",
             "googlePlayUrl": "https://track.tenjin.com/v0/click/hd62dNbX7XwbDlrruqFZxS"
         },
         {
-            "imageUrl": "https://tappsrz.github.io/adself/img/ads1.png",
+            "imageUrl": "https://tappsrz.github.io/adself/img/ads3.png",
             "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.healing.rush.hospitaltycoon"
         }
     ]
 }
-
-
-adVersion是版本号，是个整数，初始为0或者1都行，修该这个json文件任何地方，只要修改，就要版本号+1，以保持游戏内最新广告配置版本
-openAd，整数，<0则表示关闭自定义广告，>=0则是开启自定义广告
-
-showTimes是一个数组，[ 0 , 1 , -1 , 2 , 3 ],数组元素类型是整数，第一个元素是0，表示第一次展示插屏用的是aDDatas里的第0个元素（实际是第1个，计算机程序里叫第0个），第2个元素是
-1，表示第2次展示插屏用的是aDDatas里的第1个元素（实际是第2个，计算机程序里叫第1个），第3个元素是-1，表示第3次展示插屏用的是max（因为<0），第4个元素是
-2，表示第4次展示插屏用的是aDDatas里的第2个元素（实际是第3个，计算机程序里叫第2个），第5个元素是3，表示第5次展示插屏用的是aDDatas里的第3个元素（实际是第4个，计算机程序里叫第3个），但是此时aDDatas只有3个元素，所以为了程序继续运行会调用aDDatas里最后一个元素的内容。
-
-finalAd表示在showTimes里的次数用完了以后的广告走向，比如[ 0 , 1 , -1 , 2 , 3 ]，只配了5次，那么第6次开始展示什么广告就是由finalAd控制，如果finalAd<0,则展示max,>=0就展示自定义广告
