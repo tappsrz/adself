@@ -1,11 +1,11 @@
 {
-    "adVersion": 6,
+    "adVersion": 7,
     "openAd": 1,
     "openmaxfail": 1,
     "finalAd": -1,
     "showTimes": [
-        1,
-        -1
+        -1,
+        0
     ],
     "aDDatas": [
         {
