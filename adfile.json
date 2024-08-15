@@ -1,5 +1,5 @@
 {
-    "adVersion": 7,
+    "adVersion": 8,
     "openAd": 1,
     "openmaxfail": 1,
     "finalAd": -1,
@@ -10,11 +10,11 @@
     "aDDatas": [
         {
             "imageUrl": "https://tappsrz.github.io/adself/img/ads1.png",
-            "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.io.amongus.snacksquadsurvivor&referrer=campaign_id%253Dhd62dNbX7XwbDlrruqFZxS%2526clicked_at%253D1722479096%2526request_uuid%253D499917ba-a737-4a31-9759-b6c1c1603477"
+            "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.idle.gangstar.tinycrimecity&referrer=campaign_id%253DdUDCLcEInQs3MOrRZ2BL4t%2526clicked_at%253D1723694114%2526request_uuid%253D5d2022fd-527b-494b-8974-72dbf8ca0867"
         },
         {
             "imageUrl": "https://tappsrz.github.io/adself/img/ads2.png",
-            "googlePlayUrl": "https://track.tenjin.com/v0/click/hd62dNbX7XwbDlrruqFZxS"
+            "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.io.amongus.snacksquadsurvivor&referrer=campaign_id%253Dhd62dNbX7XwbDlrruqFZxS%2526clicked_at%253D1723694029%2526request_uuid%253D784963d9-8b40-4fc3-bf04-29c0c58d59f7"
         },
         {
             "imageUrl": "https://tappsrz.github.io/adself/img/ads3.png",
